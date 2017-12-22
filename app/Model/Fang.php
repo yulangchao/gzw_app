@@ -1,7 +1,7 @@
 <?php
 class Fang extends AppModel {
         public $validate = array(
-        'title' => array(
+        'address' => array(
             'rule' => 'notBlank'
         ),
         'body' => array(
@@ -15,13 +15,7 @@ class Fang extends AppModel {
 				'sizes' => array('250x100'),
 				'index' => true,
 				'description' => false,
-			),
-			'gallery' => array(
-				'name_category' => 'Images for gallery',
-				'sizes' => array('150x100', '1024_1024'),
-				'index' => false,
-				'description' => true,
-			),
+			)
 		),
 	);
 }
