@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 20, 2017 at 05:28 PM
+-- Generation Time: Dec 30, 2017 at 01:56 PM
 -- Server version: 5.7.18-0ubuntu0.16.04.1
 -- PHP Version: 7.0.22-0ubuntu0.16.04.1
 
@@ -60,7 +60,8 @@ CREATE TABLE `brw_images` (
 
 INSERT INTO `brw_images` (`id`, `name`, `record_id`, `model`, `description`, `category_code`, `created`, `modified`) VALUES
 (1, '6732ae4b41b38d5f2d73d2626a8f6c9c02065c8f.jpg', 4, 'Post', '', 'main', '2017-12-19 23:52:55', '2017-12-19 23:52:55'),
-(2, '_6732ae4b41b38d5f2d73d2626a8f6c9c02065c8f.jpg', 4, 'Post', '123', 'gallery', '2017-12-19 23:52:55', '2017-12-19 23:52:55');
+(2, '_6732ae4b41b38d5f2d73d2626a8f6c9c02065c8f.jpg', 4, 'Post', '123', 'gallery', '2017-12-19 23:52:55', '2017-12-19 23:52:55'),
+(3, '.jpeg', 5, 'Fang', '', 'main', '2017-12-21 20:52:42', '2017-12-21 20:52:42');
 
 -- --------------------------------------------------------
 
@@ -82,7 +83,7 @@ CREATE TABLE `brw_users` (
 --
 
 INSERT INTO `brw_users` (`id`, `email`, `password`, `last_login`, `created`, `modified`) VALUES
-(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2017-12-20 17:20:47', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
+(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2017-12-21 20:47:31', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
 
 -- --------------------------------------------------------
 
@@ -92,8 +93,11 @@ INSERT INTO `brw_users` (`id`, `email`, `password`, `last_login`, `created`, `mo
 
 CREATE TABLE `fangs` (
   `id` int(10) UNSIGNED NOT NULL,
-  `title` varchar(50) DEFAULT NULL,
+  `address` varchar(100) DEFAULT NULL,
   `body` text,
+  `price` int(11) DEFAULT NULL,
+  `link` varchar(100) DEFAULT NULL,
+  `city` varchar(100) NOT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -102,11 +106,8 @@ CREATE TABLE `fangs` (
 -- Dumping data for table `fangs`
 --
 
-INSERT INTO `fangs` (`id`, `title`, `body`, `created`, `modified`) VALUES
-(1, 'The title', 'This is the post body.', '2017-12-19 23:17:24', NULL),
-(2, 'A title once again', 'And the post body follows.', '2017-12-19 23:17:24', NULL),
-(3, 'Title strikes back', 'This is really exciting! Not.', '2017-12-19 23:17:24', NULL),
-(4, '', '', '2017-12-19 23:52:55', '2017-12-19 23:52:55');
+INSERT INTO `fangs` (`id`, `address`, `body`, `price`, `link`, `city`, `created`, `modified`) VALUES
+(5, '2345 wemman dr', '1500 fts\r\n', 500, 'baidu.com', 'Vancouver', '2017-12-21 20:52:42', '2017-12-21 20:52:42');
 
 -- --------------------------------------------------------
 
@@ -182,7 +183,7 @@ ALTER TABLE `brw_files`
 -- AUTO_INCREMENT for table `brw_images`
 --
 ALTER TABLE `brw_images`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `brw_users`
 --
@@ -192,7 +193,7 @@ ALTER TABLE `brw_users`
 -- AUTO_INCREMENT for table `fangs`
 --
 ALTER TABLE `fangs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `posts`
 --
