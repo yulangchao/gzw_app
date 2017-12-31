@@ -1,5 +1,5 @@
 <?php
-class Fang extends AppModel
+class History extends AppModel
 {
     public $validate = array(
         'address' => array(

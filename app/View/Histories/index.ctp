@@ -21,7 +21,7 @@
 </style>
 <section class="head">
     <div class="container">
-        <h2 class="text-center">Houses</h2>
+        <h2 class="text-center">History</h2>
     </div>
 </section>
 <div class="clearfix"></div>
@@ -29,22 +29,22 @@
     <div class="container">
 	<div class="row">
 		<div class="col-md-12 listing-block">
-        <?php foreach ($fangs as $fang): ?>
+        <?php foreach ($histories as $history): ?>
         <div class="media">
             <div class="fav-box"><i class="fa fa-heart-o" aria-hidden="true"></i>
              </div>
-              <img class="d-flex align-self-start" src=<?php echo $fang['BrwImage']['main']['path']; ?> alt="Generic placeholder image">
+              <img class="d-flex align-self-start" src=<?php echo $history['BrwImage']['main']['path']; ?> alt="Generic placeholder image">
               <div class="media-body pl-3">
-                <div class="price">$<?php echo $fang['Fang']['price']; ?><small><?php echo $fang['Fang']['city']; ?></small></div>
+                <div class="price">$<?php echo $history['History']['price']; ?><small><?php echo $history['History']['city']; ?></small></div>
                 <div class="stats">
                     <span><i class="fa fa-arrows-alt"></i>1678 Sq ft</span>
                     <span><i class="fa fa-bath"></i>2 Beadrooms</span>
                 </div>
-                <div class="address"><?php echo $fang['Fang']['address']; ?></div>
+                <div class="address"><?php echo $history['History']['address']; ?></div>
               </div>
             </div>
                 <?php endforeach; ?>
-    <?php unset($fang); ?>
+    <?php unset($history); ?>
 		</div>
 	</div>
 </div>

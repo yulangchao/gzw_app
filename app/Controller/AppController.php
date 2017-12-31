@@ -32,12 +32,13 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
     var $components = array('Session', 'Brownie.BrwPanel');
-    public $uses = array('Post','Fang');
+    public $uses = array('Post','Fang','History');
     public $brwMenu = array(
 
         '管理' => array(
             'Blog' => 'Post',
-            'List' => 'Fang'
+            'List' => 'Fang',
+            'History' => 'History'
         ),
 );
 
