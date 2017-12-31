@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.4.1deb2ubuntu2
--- http://www.phpmyadmin.net
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Dec 30, 2017 at 01:56 PM
--- Server version: 5.7.18-0ubuntu0.16.04.1
--- PHP Version: 7.0.22-0ubuntu0.16.04.1
+-- Host: 127.0.0.1
+-- Generation Time: Dec 31, 2017 at 04:17 AM
+-- Server version: 10.1.29-MariaDB
+-- PHP Version: 7.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -61,7 +63,8 @@ CREATE TABLE `brw_images` (
 INSERT INTO `brw_images` (`id`, `name`, `record_id`, `model`, `description`, `category_code`, `created`, `modified`) VALUES
 (1, '6732ae4b41b38d5f2d73d2626a8f6c9c02065c8f.jpg', 4, 'Post', '', 'main', '2017-12-19 23:52:55', '2017-12-19 23:52:55'),
 (2, '_6732ae4b41b38d5f2d73d2626a8f6c9c02065c8f.jpg', 4, 'Post', '123', 'gallery', '2017-12-19 23:52:55', '2017-12-19 23:52:55'),
-(3, '.jpeg', 5, 'Fang', '', 'main', '2017-12-21 20:52:42', '2017-12-21 20:52:42');
+(3, '.jpeg', 5, 'Fang', '', 'main', '2017-12-21 20:52:42', '2017-12-21 20:52:42'),
+(4, 'slider3.png', 1, 'History', '', 'main', '2017-12-31 04:10:54', '2017-12-31 04:10:54');
 
 -- --------------------------------------------------------
 
@@ -83,7 +86,7 @@ CREATE TABLE `brw_users` (
 --
 
 INSERT INTO `brw_users` (`id`, `email`, `password`, `last_login`, `created`, `modified`) VALUES
-(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2017-12-21 20:47:31', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
+(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2017-12-31 04:10:06', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
 
 -- --------------------------------------------------------
 
@@ -108,6 +111,30 @@ CREATE TABLE `fangs` (
 
 INSERT INTO `fangs` (`id`, `address`, `body`, `price`, `link`, `city`, `created`, `modified`) VALUES
 (5, '2345 wemman dr', '1500 fts\r\n', 500, 'baidu.com', 'Vancouver', '2017-12-21 20:52:42', '2017-12-21 20:52:42');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `histories`
+--
+
+CREATE TABLE `histories` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `address` varchar(100) DEFAULT NULL,
+  `body` text,
+  `price` int(11) DEFAULT NULL,
+  `link` varchar(100) DEFAULT NULL,
+  `city` varchar(100) NOT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `histories`
+--
+
+INSERT INTO `histories` (`id`, `address`, `body`, `price`, `link`, `city`, `created`, `modified`) VALUES
+(1, '2775', '123321', 30, '', 'van', '2017-12-31 04:10:54', '2017-12-31 04:10:54');
 
 -- --------------------------------------------------------
 
@@ -165,6 +192,12 @@ ALTER TABLE `fangs`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `histories`
+--
+ALTER TABLE `histories`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `posts`
 --
 ALTER TABLE `posts`
@@ -179,26 +212,38 @@ ALTER TABLE `posts`
 --
 ALTER TABLE `brw_files`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
 --
 -- AUTO_INCREMENT for table `brw_images`
 --
 ALTER TABLE `brw_images`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
 --
 -- AUTO_INCREMENT for table `brw_users`
 --
 ALTER TABLE `brw_users`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `fangs`
 --
 ALTER TABLE `fangs`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `histories`
+--
+ALTER TABLE `histories`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+COMMIT;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
