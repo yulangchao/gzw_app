@@ -15,14 +15,13 @@
                                     </div>
                                     <div class="blog-details blog-sig-details">
                                        <div class="details-blog-dt blog-sig-details-dt">
-                                            <span><a href="#"><i class="fa fa-user"></i><?= date('H:i:s', strtotime($post['Post']['created'])); ?></a></span>
+                                            <span><a href="#"><i class="fa fa-user"></i><?= date('Y/m/d  H:i:s', strtotime($post['Post']['created'])); ?></a></span>
                                         </div>
                                         <h1><a class="blog-ht"><?php echo h($post['Post']['title']); ?></a></h1>
+                                        <img class="" style="max-width: 300px;width: 100vh;" src=<?php echo $post['BrwImage']['main']['url']; ?> alt="">
                                         <p><?php echo h($post['Post']['body']); ?></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-

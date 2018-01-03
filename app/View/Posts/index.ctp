@@ -26,7 +26,7 @@
         <div class="single-blog-text">
             <h3><a class="blog-hd" href="/posts/view/<?=$post['Post']["id"]?>"><?= $post['Post']['title']; ?></a></h3>
             <div class="single-item-comment-view">
-                <span><i class="fa fa-clock-o"></i><?= date('H:i:s', strtotime($post['Post']['created'])); ?></span>
+                <span><i class="fa fa-clock-o"></i><?= date('Y/m/d H:i:s', strtotime($post['Post']['created'])); ?></span>
             </div>
             <p style="text-overflow: ellipsis;overflow: hidden;width: 80%;height: 40px;white-space: nowrap;"><?= $post['Post']['body']; ?></p>
             <a class="readmore" href="/posts/view/<?=$post['Post']["id"]?>">Read More</a>

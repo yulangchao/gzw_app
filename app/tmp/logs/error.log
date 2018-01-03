@@ -2180,3 +2180,610 @@ Stack Trace:
 #3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
 #4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2018-01-03 01:52:19 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:19 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:24 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:24 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:31 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:31 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:37 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:52:39 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:53:23 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:53:23 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:53:26 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:54:21 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:07 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:07 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:10 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:10 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:12 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:12 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:16 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:31 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:31 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:40 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:55:40 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:57:28 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:57:28 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:57:59 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:57:59 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:58:02 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:58:02 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:58:10 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:59:06 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:59:06 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:59:07 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:59:07 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/uploads/Post/5/car1.png
+Stack Trace:
+#0 [internal function]: PostsController->view('uploads', 'Post', '5', 'car1.png')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:59:10 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 01:59:10 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/uploads/Post/5/car1.png
+Stack Trace:
+#0 [internal function]: PostsController->view('uploads', 'Post', '5', 'car1.png')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:00:35 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:00:35 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:00:42 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:00:43 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:00:44 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:00:44 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/uploads/Post/5/car1.png
+Stack Trace:
+#0 [internal function]: PostsController->view('uploads', 'Post', '5', 'car1.png')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:02:32 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:02:32 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/uploads/Post/5/car1.png
+Stack Trace:
+#0 [internal function]: PostsController->view('uploads', 'Post', '5', 'car1.png')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:03:09 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:03:18 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:03:28 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:04:31 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:05:03 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:05:10 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:06:11 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:06:40 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:06:42 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:06:42 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:06:43 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:13 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:13 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:16 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:38 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:38 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:39 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:46 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:07:54 Error: [NotFoundException] Invalid post
+Request URL: /posts/view/img/blog-details/1.jpg
+Stack Trace:
+#0 [internal function]: PostsController->view('img', 'blog-details', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:08:06 Error: [MissingActionException] Action PostsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'img',
+)
+Request URL: /posts/img/blog/1.jpg
+Stack Trace:
+#0 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 02:08:06 Error: [MissingActionException] Action PostsController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'img',
+)
+Request URL: /posts/img/blog/1.jpg
+Stack Trace:
+#0 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2018-01-03 02:08:12 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2018-01-03 02:08:12 Error: [NotFoundException] Not Found
+Request URL: /img/blog/1.jpg
+Stack Trace:
+#0 [internal function]: ThumbsController->view('blog', '1.jpg')
+#1 E:\gzw\gzw_app\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(ThumbsController), Array)
+#2 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 E:\gzw\gzw_app\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ThumbsController), Object(CakeRequest))
+#4 E:\gzw\gzw_app\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
