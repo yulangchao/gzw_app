@@ -1,51 +1,100 @@
-<style>
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700');
 
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!--Header Start-->
+		<div class="as-mainwrapper">
 
-
-.head{float:left;width:100%;}
-.search-box{width:95%; margin:0 auto 40px;}
-.listing-block{background:#fff; height:500px; padding-top:20px; overflow-y:auto;}
-.media {background:#fff; position:relative; margin-bottom:15px;}
-.media img{width:200px;margin:0; height:136px;}
-.media-body{border:1px solid #bcbcbc; border-left:0; height:136px;}
-.media .price{float:left; width:100%; font-size:30px;font-weight:600; color:#4765AB;}
-.media .price small{display:block; font-size:17px; color:#232323;}
-.media .stats{float:left; width:100%; margin-top:10px;}
-.media .stats span{float:left; margin-right:10px; font-size:15px;}
-.media .stats span i{margin-right:7px; color:#4765AB;}
-.media .address{float:left; width:100%;font-size:14px; margin-top:5px; color:#888;}
-.media .fav-box{position:absolute; right:10px; font-size:20px; top:4px; color:#E74C3C;}
-
-</style>
-<section class="head">
-    <div class="container">
-        <h2 class="text-center">Houses</h2>
-    </div>
-</section>
-<div class="clearfix"></div>
-<section class="search-box">
-    <div class="container">
-	<div class="row">
-		<div class="col-md-12 listing-block">
-        <?php foreach ($fangs as $fang): ?>
-        <div class="media">
-            <div class="fav-box"><i class="fa fa-heart-o" aria-hidden="true"></i>
-             </div>
-              <img class="d-flex align-self-start" src=<?php echo $fang['BrwImage']['main']['path']; ?> alt="Generic placeholder image">
-              <div class="media-body pl-3">
-                <div class="price">$<?php echo $fang['Fang']['price']; ?><small><?php echo $fang['Fang']['city']; ?></small></div>
-                <div class="stats">
-                    <span><i class="fa fa-arrows-alt"></i>1678 Sq ft</span>
-                    <span><i class="fa fa-bath"></i>2 Beadrooms</span>
-                </div>
-                <div class="address"><?php echo $fang['Fang']['address']; ?></div>
-              </div>
-            </div>
-                <?php endforeach; ?>
-    <?php unset($fang); ?>
+			<!-- Contact Start -->
+			<div class="signup-area pd-70">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="row">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+									<div class="wishlist-list">
+										<table>
+											<thead>
+												<tr>
+													<th>#</th>
+													<th>Properties</th>
+													<th>Date Added</th>
+													<th>Views</th>
+												</tr>
+											</thead>
+											<tbody>
+                                            <?php foreach ($fangs as $fang): ?>
+												<tr>
+													<td><?=$fang['Fang']["id"]?></td>
+													<td>
+													<div class="wishlist-img">
+														<a href="#"><img style="width:118px; height:144px;" src="<?php echo $fang['BrwImage']['main'] ? $fang['BrwImage']['main']['url'] : '/img/wishlist/3.jpg'; ?>" alt="no pic" /></a>
+													</div>
+													<div class="wishlist-pro-details">
+														<h1><a id="<?=$fang['Fang']["id"]?>" class="links" href="<?=$fang['Fang']["link"]?>"><?=$fang['Fang']["address"]?></a></h1>
+														<p>Status: <?=$fang['Fang']["status"]?></p>
+														<p>Area: <?=$fang['Fang']["area"]?> m2</p>
+														<p>Beds: <?=$fang['Fang']["beds"]?></p>
+														<p>Baths: <?=$fang['Fang']["baths"]?></p>
+													</div>
+													</td>
+													<td><?=date('m/d/Y', strtotime($fang['Fang']['created']));?></td>
+													<td><?=$fang['Fang']["views"]?></td>
+                                                </tr>
+                                                <?php endforeach;?>
+                                                <?php unset($fang);?>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="row mg-t-30">
+								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <br>
+                                <div class="row" style="text-align: center">
+                                    <div class="pagination pagination-large text-center">
+                                        <ul class="pagination">
+                                            <?php
+echo $this->Paginator->prev(__('« 前一页'), array('tag' => 'li'), null, array('tag' => 'li', 'class' => 'disabled', 'disabledTag' => 'a'));
+echo $this->Paginator->numbers(array('separator' => '', 'currentTag' => 'a', 'currentClass' => 'active', 'tag' => 'li', 'first' => 1));
+echo $this->Paginator->next(__('后一页 »'), array('tag' => 'li', 'currentClass' => 'disabled'), null, array('tag' => 'li', 'class' => 'disabled', 'disabledTag' => 'a'));
+?>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row" style="text-align: center">
+                                    <?php echo $this->Paginator->counter(); ?>
+                                </div>
+                                <br>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Contact End -->
 		</div>
-	</div>
-</div>
-</section>
+		<!--Footer end -->
+
+</body>
+
+<script>
+
+$('document').ready(function(){
+
+    $('.links').click(function(){
+        $.ajax({
+            url: "/fangs/click/"+$(this).attr('id'),
+            type: "POST",
+            success: function (data) {
+                console.log('done');
+            }
+        })
+    });
+
+
+})
+
+
+</script>
