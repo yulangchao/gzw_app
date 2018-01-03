@@ -844,7 +844,7 @@ ul.naviagation-list-right li:hover .dropdown-singlemenu-right, ul.naviagation-li
 	font-size: 14px;
     color: #fff;
     border-radius: 50%;
-    background: #16a085;
+    background: #8e44ad;
     display: inline-block;
     text-align: center;
     margin: 0px 5px;
@@ -2046,14 +2046,14 @@ ul.category-nav li a:hover{
   border-left-color: #8e44ad;
 }
 #breadcrumb li a:active {
-  background-color: #16a085;
+  background-color: #8e44ad;
 }
 #breadcrumb li a:active:before {
-  border-color: #16a085;
+  border-color: #8e44ad;
   border-left-color: transparent;
 }
 #breadcrumb li a:active:after {
-  border-left-color: #16a085;
+  border-left-color: #8e44ad;
 }
 /*-----------------------
 4. sidebar two css
@@ -2627,7 +2627,7 @@ ul.apartment-details-dt li{
 /*  7.  Footer Css 
 /*----------------------------------------*/
 .hdream-footer-area, .fotter-bottom-area{
-	background:#16a085;
+	background:#8e44ad;
 }
 .latest-news h4, .latest-post h4, .quick-contact h4, .footer-logo h2{
 	font-size:18px;
@@ -2671,7 +2671,7 @@ ul.get-in-touch li {
 }
 .contact-form-quick input[type="email"], .contact-form-quick .message2{
 	width:100%;
-	background:#16a085;
+	background:#8e44ad;
 	border-bottom:1px solid #fff;
 	border-top:0px solid #fff;
 	border-left:0px solid #fff;
