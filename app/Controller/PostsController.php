@@ -3,10 +3,18 @@
 // File: /app/Controller/PostsController.php
 class PostsController extends AppController {
     public $helpers = array('Html', 'Form', 'Flash');
-    public $components = array('Flash');
+    public $components = array('Flash','Paginator');
 
     public function index() {
-        $this->set('posts', $this->Post->find('all'));
+        $paginate = array(
+            'limit' => 2,
+            'order' => array(
+                'Post.id' => 'desc'
+            )
+        );
+        $this->Paginator->settings = $paginate;
+        $posts = $this->Paginator->paginate('Post');
+        $this->set('posts', $posts);
     }
 
     public function view($id) {
