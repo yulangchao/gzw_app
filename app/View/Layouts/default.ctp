@@ -132,7 +132,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 								<div class="row">
 										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 												<div class="logo">
-														<a href="/"><img src="img/logo/logo.png" alt="" />
+														<a href="/"><img src="/img/logo/logo.png" alt="" />
 														</a>
 												</div>
 										</div>
@@ -499,7 +499,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div class="slider-area">
 			<div class="preview-2">
 					<div id="nivoslider" class="slides">
-							<img src="img/slider/1.jpg" alt="" title="#slider-1-caption1" />
+							<img src="/img/slider/1.jpg" alt="" title="#slider-1-caption1" />
 					</div>
 					<div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
 							<div class="banner-content slider-1">
@@ -572,7 +572,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                                     <ul class="latest-news-nav">
                                         <li>
                                             <div class="latest-news-img">
-                                                <img src="img/footer/1.jpg" alt="" />
+                                                <img src="/img/footer/1.jpg" alt="" />
                                             </div>
                                             <div class="latest-news-details">
                                                 <h5><a href="#">Dream House Plans</a></h5>
@@ -581,7 +581,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                                         </li>
                                         <li>
                                             <div class="latest-news-img">
-                                                <img src="img/footer/2.jpg" alt="" />
+                                                <img src="/img/footer/2.jpg" alt="" />
                                             </div>
                                             <div class="latest-news-details">
                                                 <h5><a href="#">Dream House Plans</a></h5>
@@ -590,7 +590,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                                         </li>
                                         <li>
                                             <div class="latest-news-img">
-                                                <img src="img/footer/3.jpg" alt="" />
+                                                <img src="/img/footer/3.jpg" alt="" />
                                             </div>
                                             <div class="latest-news-details">
                                                 <h5><a href="#">Dream House Plans</a></h5>
@@ -606,7 +606,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                                     <ul class="latest-post-nav">
                                         <li>
                                             <div class="latest-post-img">
-                                                <img src="img/footer/4.jpg" alt="" />
+                                                <img src="/img/footer/4.jpg" alt="" />
                                             </div>
                                             <div class="latest-post-details">
                                                 <h5><a href="#">Dream House Plans</a></h5>
@@ -615,7 +615,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                                         </li>
                                         <li>
                                             <div class="latest-post-img">
-                                                <img src="img/footer/5.jpg" alt="" />
+                                                <img src="/img/footer/5.jpg" alt="" />
                                             </div>
                                             <div class="latest-post-details">
                                                 <h5><a href="#">Dream House Plans</a></h5>
@@ -624,7 +624,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                                         </li>
                                         <li>
                                             <div class="latest-post-img">
-                                                <img src="img/footer/6.jpg" alt="" />
+                                                <img src="/img/footer/6.jpg" alt="" />
                                             </div>
                                             <div class="latest-post-details">
                                                 <h5><a href="#">Dream House Plans</a></h5>
@@ -669,76 +669,76 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 <!-- jquery
 ============================================ -->
-<script src="js/vendor/jquery-1.12.0.min.js"></script>
+<script src="/js/vendor/jquery-1.12.0.min.js"></script>
 <!-- bootstrap JS
 ============================================ -->
-<script src="js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <!-- wow JS
 ============================================ -->
-<script src="js/wow.min.js"></script>
+<script src="/js/wow.min.js"></script>
 <!-- price-slider JS
 ============================================ -->
-<script src="js/jquery-price-slider.js"></script>
+<script src="/js/jquery-price-slider.js"></script>
 <!-- Nivo slider JS
 ============================================ -->
-<script src="js/jquery.nivo.slider.js"></script>
+<script src="/js/jquery.nivo.slider.js"></script>
 <!-- meanmenu JS
 ============================================ -->
-<script src="js/jquery.meanmenu.js"></script>
+<script src="/js/jquery.meanmenu.js"></script>
 <!-- owl.carousel JS
 ============================================ -->
-<script src="js/owl.carousel.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
 <!-- scrollUp JS
 ============================================ -->
-<script src="js/jquery.scrollUp.min.js"></script>
+<script src="/js/jquery.scrollUp.min.js"></script>
 <!-- slick JS
 ============================================ -->
-<script src="js/jquery.sticky.js"></script>
+<script src="/js/jquery.sticky.js"></script>
 <!-- form input select JS
 ============================================ -->
-<script src="js/chosen.jquery.js"></script>
-<script src="js/prism.js"></script>
-<script src="js/init.js"></script>
+<script src="/js/chosen.jquery.js"></script>
+<script src="/js/prism.js"></script>
+<script src="/js/init.js"></script>
 <!-- isotope JS
 ============================================ -->
-<script src="js/waypoints.min.js"></script>
-<script src="js/jquery.counterup.min.js"></script>
+<script src="/js/waypoints.min.js"></script>
+<script src="/js/jquery.counterup.min.js"></script>
 <!-- isotope JS
 ============================================ -->
-<script src="js/isotope.pkgd.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
 <!-- sliphover JS
 ============================================ -->
-<script src="js/jquery.directional-hover.min.js"></script>
+<script src="/js/jquery.directional-hover.min.js"></script>
 <!-- logosDistort JS
 ============================================ -->
-<script src="js/jquery.particleground.min.js"></script>
-<script src="js/jquery.logosDistort.js"></script>
+<script src="/js/jquery.particleground.min.js"></script>
+<script src="/js/jquery.logosDistort.js"></script>
 <!-- Video Player JS
 ============================================ -->
-<script src="js/jquery.mb.YTPlayer.js"></script>
+<script src="/js/jquery.mb.YTPlayer.js"></script>
 <!-- animated headlines JS
 ============================================ -->
-<script src="js/animated-headlines.js"></script>
+<script src="/js/animated-headlines.js"></script>
 <!-- lightbox JS
 ============================================ -->
-<script src="js/lightbox.min.js"></script>
+<script src="/js/lightbox.min.js"></script>
 <!-- animated headlines JS
 ============================================ -->
-<script src="js/textilate.js"></script>
+<script src="/js/textilate.js"></script>
 <!-- lettering JS
 ============================================ -->
-<script src="js/lettering.js"></script>
+<script src="/js/lettering.js"></script>
 <!-- plugins JS
 ============================================ -->
-<script src="js/plugins.js"></script>
+<script src="/js/plugins.js"></script>
 <!-- styleswitch JS
 ============================================ -->
-<script src="js/styleswitch.js"></script>
+<script src="/js/styleswitch.js"></script>
 <!-- main JS
 ============================================ -->
-<script src="js/main.js"></script>
+<script src="/js/main.js"></script>
 <!-- tawk chat JS
 ============================================ -->
-<script src="js/tawk-chat.js"></script>
+<script src="/js/tawk-chat.js"></script>
 
 
