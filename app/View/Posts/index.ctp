@@ -14,225 +14,50 @@
                     </div>
                 </div>
                 <div class="row mg-b-30">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
+                    <?php foreach ($posts as $post): ?>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt" style="margin-top: 20px;">
+                                <div class="single-blog-item">
+                                    <div class="single-blog-image">
+                                        <a href="/posts/view/<?=$post['Post']["id"]?>">
+                                            <img style="width: 370px;height: 250px;" src="<?php echo $post['BrwImage']['main'] ? $post['BrwImage']['main']['url'] : '/img/blog/1.jpg'; ?>" alt="No Image">
+                                            <div class="date-blog">
+                                            <p class="date-number"><?= date('d', strtotime($post['Post']['created'])); ?></p>
+                                            <p class="date-month"><?= date('M', strtotime($post['Post']['created'])); ?></p>
+                                            </div>
+                                        </a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
+                                    <div class="single-blog-text">
+                                        <h3><a class="blog-hd" href="/posts/view/<?=$post['Post']["id"]?>"><?= $post['Post']['title']; ?></a></h3>
+                                        <div class="single-item-comment-view">
+                                            <span><i class="fa fa-clock-o"></i> <?= date('Y/m/d H:i:s', strtotime($post['Post']['created'])); ?></span>
+                                        </div>
+                                        <p style="text-overflow: ellipsis;overflow: hidden;width: 80%;height: 40px;white-space: nowrap;"><?= $post['Post']['body']; ?></p>
+                                        <a class="readmore" href="/posts/view/<?=$post['Post']["id"]?>">Read More</a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
                                 </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mg-b-30">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mg-b-30">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 bl-res-mg-bt">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-blog-item">
-                            <div class="single-blog-image">
-                                <a href="blog-details-page.html">
-                                    <img src="/img/blog/1.jpg" alt="">
-                                    <div class="date-blog">
-                                        <p class="date-number">15</p>
-                                        <p class="date-month">Jun</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-blog-text">
-                                <h3><a class="blog-hd" href="blog-details-page.html">Buy Luxury Dream House</a></h3>
-                                <div class="single-item-comment-view">
-                                    <span><i class="fa fa-clock-o"></i> 4.00 pm - 8.00 pm</span>
-                                    <span class="address-bt"><i class="fa fa-map-marker" aria-hidden="true"></i> Dhaka Bangladesh</span>
-                                </div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been....</p>
-                                <a class="readmore" href="blog-details-page.html">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endforeach;?>
+                    <?php unset($post);?>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="custom-pagination">
+                    <br>
+                    <div class="row" style="text-align: center">
+                        <div class="pagination pagination-large text-center">
                             <ul class="pagination">
-                                <li><a href="#"><i class="fa fa-angle-left"></i></a>
-                                </li>
-                                <li><a href="#">1</a>
-                                </li>
-                                <li><a href="#">2</a>
-                                </li>
-                                <li><a href="#">3</a>
-                                </li>
-                                <li><a href="#"><i class="fa fa-angle-right"></i></a>
-                                </li>
+                                <?php
+                                echo $this->Paginator->prev(__('« 前一页'), array('tag' => 'li'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a'));
+                                echo $this->Paginator->numbers(array('separator' => '','currentTag' => 'a', 'currentClass' => 'active','tag' => 'li','first' => 1));
+                                echo $this->Paginator->next(__('后一页 »'), array('tag' => 'li','currentClass' => 'disabled'), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a'));
+                                ?>
                             </ul>
                         </div>
+                    </div>
+                    <div class="row" style="text-align: center">
+                        <?php echo $this->Paginator->counter(); ?>
+                    </div>
+                    <br>
+                    
                     </div>
                 </div>
             </div>
@@ -370,80 +195,5 @@
     </div>
     <!--Footer end -->
     <!-- Color Switcher -->
-    <div class="ec-colorswitcher">
-        <a class="ec-handle" href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
-        <h3>Style Switcher</h3>
-        <div class="ec-switcherarea">
-            <h6>Select Layout</h6>
-            <div class="layout-btn">
-                <a href="#" class="ec-boxed"><span>Boxed</span></a>
-                <a href="#" class="ec-wide"><span>Wide</span></a>
-            </div>
-            <div class="base-color">
-                <h6>Base Color</h6>
-                <ul class="ec-switcher">
-                    <li>
-                        <a href="#" class="cs-color-1 styleswitch" data-rel="color-one"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-2 styleswitch" data-rel="color-two"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-3 styleswitch" data-rel="color-three"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-4 styleswitch" data-rel="color-four"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-5 styleswitch" data-rel="color-five"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-6 styleswitch" data-rel="color-six"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-7 styleswitch" data-rel="color-seven"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-8 styleswitch" data-rel="color-eight"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-9 styleswitch" data-rel="color-nine"></a>
-                    </li>
-                    <li>
-                        <a href="#" class="cs-color-10 styleswitch" data-rel="color-ten"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="ec-pattren">
-                <h6>Chose Pattren</h6>
-                <div class="pattren-wrap">
-                    <a href="#" data-rel="pattren1" class="styleswitch"><img src="/img/ec-pattren/pattren1.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="pattren2" class="styleswitch"><img src="/img/ec-pattren/pattren2.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="pattren3" class="styleswitch"><img src="/img/ec-pattren/pattren3.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="pattren4" class="styleswitch"><img src="/img/ec-pattren/pattren4.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="pattren5" class="styleswitch"><img src="/img/ec-pattren/pattren5.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-            <div class="ec-background">
-                <h6>Chose Background</h6>
-                <div class="background-wrap">
-                    <a href="#" data-rel="background1" class="styleswitch"><img src="/img/ec-background/bg-1.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="background2" class="styleswitch"><img src="/img/ec-background/bg-2.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="background3" class="styleswitch"><img src="/img/ec-background/bg-3.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="background4" class="styleswitch"><img src="/img/ec-background/bg-4.jpg" alt="">
-                    </a>
-                    <a href="#" data-rel="background5" class="styleswitch"><img src="/img/ec-background/bg-5.jpg" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </body>

@@ -12,7 +12,7 @@ class Post extends AppModel {
 		'images' => array(
 			'main' => array(
 				'name_category' => 'Main image',
-				'sizes' => array('250x100'),
+				'sizes' => array('370x250'),
 				'index' => true,
 				'description' => false,
 			)

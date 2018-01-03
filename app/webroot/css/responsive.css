@@ -22,10 +22,10 @@
 	display:none;
 }
 .hdream-agent-info::after {
-	border-right: 110px solid #1abc9c;
+	border-right: 110px solid #8e44ad;
 }
 .hdream-agent-info::after {
-	border-left: 110px solid #1abc9c;
+	border-left: 110px solid #8e44ad;
 }
 .hdream-single-agent:hover .hdream-agent-info:after {
 	border-left: 110px solid #f1c40f;
@@ -168,10 +168,10 @@
 	width: 100%;
 }
 .hdream-agent-info::after {
-	border-right: 175px solid #1abc9c;
+	border-right: 175px solid #8e44ad;
 }
 .hdream-agent-info::after {
-	border-left: 170px solid #1abc9c;
+	border-left: 170px solid #8e44ad;
 }
 .hdream-single-agent:hover .hdream-agent-info:after {
 	border-left: 175px solid #f1c40f;
@@ -368,7 +368,7 @@
 	background:none;
 }
 .hdream-agent-info::after {
-	border-right: 140px solid #1abc9c;
+	border-right: 140px solid #8e44ad;
 }
 .hdream-single-agent:hover .hdream-agent-info:after {
     border-right: 140px solid #f1c40f;
@@ -566,10 +566,10 @@ ul.footer-social-icon li a {
 	width: 100%;
 }
 .hdream-agent-info::after {
-	border-right: 216px solid #1abc9c;
+	border-right: 216px solid #8e44ad;
 }
 .hdream-agent-info::after {
-	border-left: 204px solid #1abc9c;
+	border-left: 204px solid #8e44ad;
 }
 .hdream-single-agent:hover .hdream-agent-info:after {
 	border-left: 216px solid #f1c40f;

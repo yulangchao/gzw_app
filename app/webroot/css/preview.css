@@ -198,7 +198,7 @@ preview-1
 	font-family: 'Lato', sans-serif;
 }
 .button-default {
-    background: #1abc9c none repeat scroll 0 0;
+    background: #8e44ad none repeat scroll 0 0;
     color: #ffffff;
     display: inline-block;
     font-size: 14px;
@@ -241,7 +241,7 @@ preview-1
     font-size: 0;
 }
 .preview-2 .nivo-directionNav a.nivo-prevNav::before, .preview-2 .nivo-directionNav a.nivo-nextNav::before {
-    background: #1abc9c;
+    background: #8e44ad;
     border-radius: 50%;
     color: #ffffff;
     content: "\f177";
