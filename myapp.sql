@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2018 at 06:36 AM
+-- Generation Time: Jan 05, 2018 at 07:07 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -82,7 +82,8 @@ CREATE TABLE `brw_images` (
 --
 
 INSERT INTO `brw_images` (`id`, `name`, `record_id`, `model`, `description`, `category_code`, `created`, `modified`) VALUES
-(14, 'doctor1-副本-2.png', 13, 'Blog', '', 'main', '2018-01-05 06:32:39', '2018-01-05 06:32:39');
+(14, 'doctor1-副本-2.png', 13, 'Blog', '', 'main', '2018-01-05 06:32:39', '2018-01-05 06:32:39'),
+(15, 'doctor1.png', 13, 'Fang', '', 'main', '2018-01-05 06:47:26', '2018-01-05 06:47:26');
 
 -- --------------------------------------------------------
 
@@ -115,16 +116,26 @@ INSERT INTO `brw_users` (`id`, `email`, `password`, `last_login`, `created`, `mo
 CREATE TABLE `fangs` (
   `id` int(10) UNSIGNED NOT NULL,
   `address` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `beds` int(100) DEFAULT NULL,
   `price` int(11) DEFAULT NULL,
   `link` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `area` int(100) DEFAULT NULL,
   `baths` int(11) DEFAULT NULL,
+  `garages` int(1) NOT NULL DEFAULT '0',
   `status` varchar(100) DEFAULT NULL,
   `views` int(11) DEFAULT '0',
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `fangs`
+--
+
+INSERT INTO `fangs` (`id`, `address`, `content`, `beds`, `price`, `link`, `area`, `baths`, `garages`, `status`, `views`, `created`, `modified`) VALUES
+(13, '2775', '好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房好房', 3, 1000, 'http://google.ca', 600, 2, 0, 'Sale', 1000, '2018-01-05 06:42:20', '2018-01-05 06:52:42'),
+(14, '1111', NULL, 1, 1, '1', 1, 1, 1, '1', 1, '2018-01-05 06:47:47', '2018-01-05 06:47:47');
 
 -- --------------------------------------------------------
 
@@ -213,7 +224,7 @@ ALTER TABLE `brw_files`
 -- AUTO_INCREMENT for table `brw_images`
 --
 ALTER TABLE `brw_images`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `brw_users`
@@ -225,7 +236,7 @@ ALTER TABLE `brw_users`
 -- AUTO_INCREMENT for table `fangs`
 --
 ALTER TABLE `fangs`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `histories`

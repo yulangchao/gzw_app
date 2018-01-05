@@ -291,17 +291,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																						</div>
 																				</div>
 																		</li>
-																		<li><a href="#">Properties</a>
-																				<ul class="dropdown-menu-items">
-																						<li><a href="apartment-page.html">Property Page</a>
-																						</li>
-																						<li><a href="apartment-details.html">Property Details</a>
-																						</li>
-																						<li><a href="apartment-left-sidebar.html">Property Left Sidebar</a>
-																						</li>
-																						<li><a href="apartment-right-sidebar.html">Property Right Sidebar</a>
-																						</li>
-																				</ul>
+																		<li><a href="/fangs">Properties</a>
 																		</li>
 																		<li><a href="/blogs">Blog</a>
 																		</li>

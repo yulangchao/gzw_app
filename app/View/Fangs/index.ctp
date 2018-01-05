@@ -1,55 +1,73 @@
+<style>
+.content{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* width: 80%; */
+    height: 76px;
+    white-space: normal;
+}
 
-    <body>
-        <!--[if lt IE 8]>
+</style>
+
+
+
+
+<body>
+    <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <!--Header Start-->
-		<div class="as-mainwrapper">
-
-			<!-- Contact Start -->
-			<div class="signup-area pd-70">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="row">
-								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-									<div class="wishlist-list">
-										<table>
-											<thead>
-												<tr>
-													<th>#</th>
-													<th>Properties</th>
-													<th>Date Added</th>
-													<th>Views</th>
-												</tr>
-											</thead>
-											<tbody>
-                                            <?php foreach ($fangs as $fang): ?>
-												<tr>
-													<td><?=$fang['Fang']["id"]?></td>
-													<td>
-													<div class="wishlist-img">
-														<a href="#"><img style="width:118px; height:144px;" src="<?php echo $fang['BrwImage']['main'] ? $fang['BrwImage']['main']['url'] : '/img/wishlist/3.jpg'; ?>" alt="no pic" /></a>
-													</div>
-													<div class="wishlist-pro-details">
-														<h1><a id="<?=$fang['Fang']["id"]?>" class="links" href="<?=$fang['Fang']["link"]?>"><?=$fang['Fang']["address"]?></a></h1>
-														<p>Status: <?=$fang['Fang']["status"]?></p>
-														<p>Area: <?=$fang['Fang']["area"]?> m2</p>
-														<p>Beds: <?=$fang['Fang']["beds"]?></p>
-														<p>Baths: <?=$fang['Fang']["baths"]?></p>
-													</div>
-													</td>
-													<td><?=date('m/d/Y', strtotime($fang['Fang']['created']));?></td>
-													<td><?=$fang['Fang']["views"]?></td>
-                                                </tr>
-                                                <?php endforeach;?>
-                                                <?php unset($fang);?>
-											</tbody>
-										</table>
+    <!-- Add your site or application content here -->
+    <!--Header Start-->
+    <div class="as-mainwrapper">
+        <div class="apartment-area pd-70">
+            <div class="container">
+				<div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="property-heading">
+                            <h1>Luxury Properties</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy text.It takes time and money to build or purchase.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mg-b-30">
+					<?php foreach ($fangs as $fang): ?>
+						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 grid-item">
+							<div class="property-item dh-container res-mg-bt">
+								<img style="width:370px; height:270px;" src="<?php echo $fang['BrwImage']['main'] ? $fang['BrwImage']['main']['url'] : '/img/property/1.jpg'; ?>" alt="" />
+								<div class="property-details dh-overlay">
+									<div class="property-over"></div>
+									<div class="property-details-inner">
+										<h5><?=$fang['Fang']["address"]?></h5>
+										<p class="content"><?=$fang['Fang']["content"]?></p>
+										<a href="<?=$fang['Fang']["link"]?>"><i class="fa fa-chain"></i></a>
+										<a data-lightbox="roadtrip-<?=$fang['Fang']["content"]?>" href="<?php echo $fang['BrwImage']['main'] ? $fang['BrwImage']['main']['url'] : '/img/property/1.jpg'; ?>"><i class="fa fa-plus"></i></a>
+									</div>
+									<div class="property-info">
+										<div class="property-info-area">
+											<h6>Area:</h6>
+											<p><?=$fang['Fang']["area"]?> m<sup>2</sup>
+											</p>
+										</div>
+										<div class="property-info-area">
+											<h6>Beds:</h6>
+											<p><?=$fang['Fang']["beds"]?></p>
+										</div>
+										<div class="property-info-area">
+											<h6>Baths:</h6>
+											<p><?=$fang['Fang']["baths"]?></p>
+										</div>
+										<div class="property-info-area">
+											<h6>Garages:</h6>
+											<p><?=$fang['Fang']["garages"]?></p>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="row mg-t-30">
+						</div>
+					<?php endforeach;?>
+					<?php unset($fang);?>
+                </div>
+				<div class="row mg-t-30">
 								<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <br>
                                 <div class="row" style="text-align: center">
@@ -69,15 +87,26 @@ echo $this->Paginator->next(__('后一页 »'), array('tag' => 'li', 'currentCla
                                 <br>
 								</div>
 							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Contact End -->
-		</div>
-		<!--Footer end -->
+            </div>
+        </div>
+
+    </div>
 
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
 
