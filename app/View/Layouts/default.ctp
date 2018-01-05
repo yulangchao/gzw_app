@@ -303,7 +303,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																						</li>
 																				</ul>
 																		</li>
-																		<li><a href="/posts">Blog</a>
+																		<li><a href="/blogs">Blog</a>
 																		</li>
 																		<li><a href="Contact.html">Contact</a>
 																		</li>
