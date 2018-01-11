@@ -6,7 +6,15 @@ class VideosController extends AppController {
     public $components = array('Flash','Paginator');
 
     public function index() {
-        $this->set('histories', $this->History->find('all'));
+        $paginate = array(
+            'limit' => 9,
+            'order' => array(
+                'Video.id' => 'desc'
+            )
+        );
+        $this->Paginator->settings = $paginate;
+        $videos = $this->Paginator->paginate('Video');
+        $this->set('videos', $videos );
     }
 
 }

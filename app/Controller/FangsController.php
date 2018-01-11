@@ -7,7 +7,7 @@ class FangsController extends AppController {
 
     public function index() {
         $paginate = array(
-            'limit' => 5,
+            'limit' => 9,
             'order' => array(
                 'Fang.id' => 'desc'
             )
