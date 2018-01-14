@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 05, 2018 at 07:07 AM
+-- Generation Time: Jan 14, 2018 at 06:26 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -60,6 +60,15 @@ CREATE TABLE `brw_files` (
   `modified` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `brw_files`
+--
+
+INSERT INTO `brw_files` (`id`, `name`, `record_id`, `model`, `description`, `category_code`, `created`, `modified`) VALUES
+(1, 'movie.mp4', 1, 'Video', '', 'main', '2018-01-08 23:06:01', '2018-01-08 23:06:01'),
+(2, 'movie.mp4', 2, 'Video', '', 'main', '2018-01-11 06:15:57', '2018-01-11 06:15:57'),
+(3, 'movie.mp4', 3, 'Video', '', 'main', '2018-01-11 06:17:45', '2018-01-11 06:17:45');
+
 -- --------------------------------------------------------
 
 --
@@ -105,7 +114,7 @@ CREATE TABLE `brw_users` (
 --
 
 INSERT INTO `brw_users` (`id`, `email`, `password`, `last_login`, `created`, `modified`) VALUES
-(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2018-01-05 06:30:21', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
+(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2018-01-11 06:15:51', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
 
 -- --------------------------------------------------------
 
@@ -146,6 +155,7 @@ INSERT INTO `fangs` (`id`, `address`, `content`, `beds`, `price`, `link`, `area`
 CREATE TABLE `histories` (
   `id` int(10) UNSIGNED NOT NULL,
   `address` varchar(100) DEFAULT NULL,
+  `title` varchar(100) NOT NULL,
   `body` text,
   `price` int(11) DEFAULT NULL,
   `link` varchar(100) DEFAULT NULL,
@@ -158,8 +168,32 @@ CREATE TABLE `histories` (
 -- Dumping data for table `histories`
 --
 
-INSERT INTO `histories` (`id`, `address`, `body`, `price`, `link`, `city`, `created`, `modified`) VALUES
-(1, '2775', '123321', 30, '', 'van', '2017-12-31 04:10:54', '2017-12-31 04:10:54');
+INSERT INTO `histories` (`id`, `address`, `title`, `body`, `price`, `link`, `city`, `created`, `modified`) VALUES
+(1, 'Burnaby', '', '123321', 30, '', 'van', '2017-12-31 04:10:54', '2017-12-31 04:10:54'),
+(2, 'WEST VANCOUVER', '', '123321', 30, '', 'van', '2017-12-31 04:10:54', '2017-12-31 04:10:54');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `videos`
+--
+
+CREATE TABLE `videos` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `body` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `videos`
+--
+
+INSERT INTO `videos` (`id`, `title`, `body`, `created`, `modified`) VALUES
+(1, '1', '1', '2018-01-08 23:06:01', '2018-01-08 23:06:01'),
+(2, 'bear', 'bear', '2018-01-11 06:15:07', '2018-01-11 06:15:07'),
+(3, 'test', 'test', '2018-01-11 06:17:45', '2018-01-11 06:17:45');
 
 --
 -- Indexes for dumped tables
@@ -205,6 +239,12 @@ ALTER TABLE `histories`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `videos`
+--
+ALTER TABLE `videos`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -218,7 +258,7 @@ ALTER TABLE `blogs`
 -- AUTO_INCREMENT for table `brw_files`
 --
 ALTER TABLE `brw_files`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `brw_images`
@@ -242,7 +282,13 @@ ALTER TABLE `fangs`
 -- AUTO_INCREMENT for table `histories`
 --
 ALTER TABLE `histories`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `videos`
+--
+ALTER TABLE `videos`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

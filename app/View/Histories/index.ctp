@@ -50,9 +50,9 @@
         function geocodeAddress(geocoder, resultsMap) {
 
             <?php foreach ($histories as $history): ?>
-            
+               
                 var address ="<?=$history['History']['address']?>";
-
+                console.log(address);
                 var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
