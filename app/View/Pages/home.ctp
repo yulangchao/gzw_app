@@ -2,7 +2,7 @@
 	<div class="slider-area">
 			<div class="preview-2">
 					<div id="nivoslider" class="slides">
-							<img src="/img/slider/1.jpg" alt="" title="#slider-1-caption1" />
+							<img src=<?php print_r($test['BrwImage']['main']['url'])?> alt="" title="#slider-1-caption1" />
 					</div>
 					<div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
 							<div class="banner-content slider-1">
@@ -27,4 +27,6 @@
 					</div>
 			</div>
 	</div>
+
+	<?php print_r($test['BrwImage']['main']['url'])?>
 	<!--End of Slider Area-->

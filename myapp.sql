@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 14, 2018 at 06:26 AM
+-- Generation Time: Jan 19, 2018 at 07:41 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -92,7 +92,8 @@ CREATE TABLE `brw_images` (
 
 INSERT INTO `brw_images` (`id`, `name`, `record_id`, `model`, `description`, `category_code`, `created`, `modified`) VALUES
 (14, 'doctor1-副本-2.png', 13, 'Blog', '', 'main', '2018-01-05 06:32:39', '2018-01-05 06:32:39'),
-(15, 'doctor1.png', 13, 'Fang', '', 'main', '2018-01-05 06:47:26', '2018-01-05 06:47:26');
+(15, 'doctor1.png', 13, 'Fang', '', 'main', '2018-01-05 06:47:26', '2018-01-05 06:47:26'),
+(16, 'f1cfaf7a57884e278e31df2f9c5560b4-1498567180253.jpg', 14, 'Image', '', 'main', '2018-01-19 06:55:31', '2018-01-19 06:55:31');
 
 -- --------------------------------------------------------
 
@@ -114,7 +115,7 @@ CREATE TABLE `brw_users` (
 --
 
 INSERT INTO `brw_users` (`id`, `email`, `password`, `last_login`, `created`, `modified`) VALUES
-(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2018-01-11 06:15:51', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
+(2, 'test@gmail.com', 'cb9dd60a394cddb9abf1a0dc0d973ca7cd015edf', '2018-01-19 06:55:01', '2017-12-19 22:41:55', '2017-12-19 22:41:55');
 
 -- --------------------------------------------------------
 
@@ -171,6 +172,19 @@ CREATE TABLE `histories` (
 INSERT INTO `histories` (`id`, `address`, `title`, `body`, `price`, `link`, `city`, `created`, `modified`) VALUES
 (1, 'Burnaby', '', '123321', 30, '', 'van', '2017-12-31 04:10:54', '2017-12-31 04:10:54'),
 (2, 'WEST VANCOUVER', '', '123321', 30, '', 'van', '2017-12-31 04:10:54', '2017-12-31 04:10:54');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `images`
+--
+
+CREATE TABLE `images` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created` datetime DEFAULT NULL,
+  `modified` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -239,6 +253,12 @@ ALTER TABLE `histories`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `images`
+--
+ALTER TABLE `images`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `videos`
 --
 ALTER TABLE `videos`
@@ -264,7 +284,7 @@ ALTER TABLE `brw_files`
 -- AUTO_INCREMENT for table `brw_images`
 --
 ALTER TABLE `brw_images`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `brw_users`
@@ -283,6 +303,12 @@ ALTER TABLE `fangs`
 --
 ALTER TABLE `histories`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `images`
+--
+ALTER TABLE `images`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `videos`

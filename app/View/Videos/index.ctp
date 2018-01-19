@@ -6,7 +6,6 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="property-heading">
                 <h1>Video Links</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
         </div>
     </div>
@@ -17,6 +16,7 @@
                 <video id="video" width="360" height="260" src="<?=$video['BrwFile']['main']['url']?>" controls controlsList="nodownload">
                     your browser does not support the video tag
                 </video>
+                <p style="text-align:  center;font-weight:  bold;"><?=$video['Video']['title']?></p>
             </div>
         </div>
         <?php endforeach;?>
