@@ -21,7 +21,7 @@
 </style>
 <section class="head" style="padding-top:50px;">
     <div class="container">
-        <h2 class="text-center">Sold Histories</h2>
+        <h2 class="text-center">Leo Map</h2>
         <br/>
     </div>
 </section>
@@ -52,7 +52,6 @@
             <?php foreach ($histories as $history): ?>
                
                 var address ="<?=$history['History']['address']?>";
-                console.log(address);
                 var contentString = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+

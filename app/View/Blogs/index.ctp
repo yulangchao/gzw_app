@@ -9,7 +9,6 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="blog-main-heading">
                             <h1>Latest Blog</h1>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been industry's standard dummy text.It takes time and money to build or purchase.</p>
                         </div>
                     </div>
                 </div>

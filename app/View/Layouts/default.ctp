@@ -132,7 +132,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 								<div class="row">
 										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 												<div class="logo">
-														<a href="/"><img src="/img/logo/logo.png" alt="" />
+														<a href="/"><img src="/images/logo.jpg" alt="" style="width:200px; height:85px;"/>
 														</a>
 												</div>
 										</div>
@@ -142,8 +142,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																<i class="fa fa-phone"></i>
 														</div>
 														<div class="header-phone-details">
-																<h5>+88 (019) 620 673 09</h5>
-																<p>We are open 9 am - 10pm</p>
+																<h5>Office: (250) 370 7788</h5>
+																<p>Leo Jiao: (250) 508 6285</p>
 														</div>
 												</div>
 										</div>
@@ -153,15 +153,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																<i class="fa fa-envelope" aria-hidden="true"></i>
 														</div>
 														<div class="header-envalupe-details">
-																<h5>uttaraitpark@gmail.com</h5>
-																<p>We are open 9 am - 10pm</p>
+																<h5>Office Location:</h5>
+																<p>2239 Ock Bay, Victoria</p>
 														</div>
 												</div>
 										</div>
 										<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 												<div class="header-social-media">
 														<ul class="header-social-icon">
-																<li><a class="one" href="#"><i class="fa fa-facebook"></i></a>
+																<li><a class="one" href="https://www.facebook.com/leo.jiao"><i class="fa fa-facebook"></i></a>
 																</li>
 																<li><a class="two" href="#"><i class="fa fa-twitter"></i></a>
 																</li>
@@ -190,7 +190,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																	<li><a href="/about">About</a></li>
 																	<li><a href="/videos">Video</a></li>
 																	<li><a href="/blogs">Blog</a></li>
-																	<li><a href="/histories">Sold History</a></li>
+																	<li><a href="/histories">Leo Map</a></li>
 																	<li><a href="/fangs">Listings</a></li>
 																	<li><a href="/">Networks</a></li>
 																</ul>
@@ -213,7 +213,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 														<li><a href="/about">About</a></li>
 														<li><a href="/videos">Video</a></li>
 														<li><a href="/blogs">Blog</a></li>
-														<li><a href="/histories">Sold History</a></li>
+														<li><a href="/histories">Leo Map</a></li>
 														<li><a href="/fangs">Listings</a></li>
 														<li><a href="/">Networks</a></li>
 													</ul>
@@ -236,116 +236,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	<div class="hdream-footer-area pd-70">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 custom-footer-overlay">
-                        <div class="footer-logo-wrap">
-                            <div class="footer-logo">
-								<h2>About Us</h2>
-                                <p>Lorem Ipsum is simply dummy text of the printing industry.It takes time and money to build or purchase.</p>
-                            </div>
-                            <div class="footer-address-details">
-                                <ul class="get-in-touch">
-                                    <li><i class="fa fa-home" aria-hidden="true"></i> Sector: #11, Road No: #17, House No: 06, Dhaka-1230, Bangladesh.</li>
-                                    <li><i class="fa fa-phone-square" aria-hidden="true"></i> +01962067309, 01955239099</li>
-                                </ul>
-                            </div>
-                            <div class="footer-social-media">
-                                <ul class="footer-social-icon">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-youtube"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-md-6">
+                        <img src="/images/wechat.jpg" alt="" style="height:300px;"/>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <div class="latest-news">
-                                    <h4>Latest News</h4>
-                                    <ul class="latest-news-nav">
-                                        <li>
-                                            <div class="latest-news-img">
-                                                <img src="/img/footer/1.jpg" alt="" />
-                                            </div>
-                                            <div class="latest-news-details">
-                                                <h5><a href="#">Dream House Plans</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="latest-news-img">
-                                                <img src="/img/footer/2.jpg" alt="" />
-                                            </div>
-                                            <div class="latest-news-details">
-                                                <h5><a href="#">Dream House Plans</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="latest-news-img">
-                                                <img src="/img/footer/3.jpg" alt="" />
-                                            </div>
-                                            <div class="latest-news-details">
-                                                <h5><a href="#">Dream House Plans</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <div class="latest-post">
-                                    <h4>Latest Post</h4>
-                                    <ul class="latest-post-nav">
-                                        <li>
-                                            <div class="latest-post-img">
-                                                <img src="/img/footer/4.jpg" alt="" />
-                                            </div>
-                                            <div class="latest-post-details">
-                                                <h5><a href="#">Dream House Plans</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="latest-post-img">
-                                                <img src="/img/footer/5.jpg" alt="" />
-                                            </div>
-                                            <div class="latest-post-details">
-                                                <h5><a href="#">Dream House Plans</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text</p>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="latest-post-img">
-                                                <img src="/img/footer/6.jpg" alt="" />
-                                            </div>
-                                            <div class="latest-post-details">
-                                                <h5><a href="#">Dream House Plans</a></h5>
-                                                <p>Lorem Ipsum is simply dummy text</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                                <div class="quick-contact">
-                                    <h4>Quick Contact</h4>
-                                    <p>Lorem Ipsum is simply dummy text of the printing industry.It takes time and money to build or purchase.</p>
-                                    <div class="contact-form-quick">
-                                        <input class="email-ft" type="email" placeholder="Type your E-mail address...">
-                                        <textarea class="message2" name="message2" placeholder="Write here..."></textarea>
-                                        <button type="submit" value="send">Send</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                    <div class="col-md-6">
+                        <h3><span style="color:white;">联系电话：</span></h3>
+                        <a href="tel:2505086285" style="color:white;padding-left:30px;">(250)-508-6285</a>
                     </div>
                 </div>
             </div>
@@ -356,7 +253,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="copy-right">
-						<p>Copyright &#169; 2017 <a href="http://uttaraitpark.com/">uttaraitpark</a> All rights reserved.</p>
+						<p>Copyright &#169; 2018 <a href="http://uttaraitpark.com/">leojiao.ca</a> All rights reserved.</p>
 					</div>
 				</div>
 			</div>
