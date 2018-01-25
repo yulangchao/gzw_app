@@ -154,7 +154,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 														</div>
 														<div class="header-envalupe-details">
 																<h5>Office Location:</h5>
-																<p>2239 Ock Bay, Victoria</p>
+																<p>2239 Oak Bay Ave, Victoria</p>
 														</div>
 												</div>
 										</div>
