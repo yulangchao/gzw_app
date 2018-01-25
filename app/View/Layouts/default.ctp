@@ -241,8 +241,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
                     </div>
 
                     <div class="col-md-6">
-                        <h3><span style="color:white;">联系电话：</span></h3>
+                        <h4><span style="color:white;">联系 Leo Jiao：</span></h4>
                         <a href="tel:2505086285" style="color:white;padding-left:30px;">(250)-508-6285</a>
+												<br/><br/>
+												<h4><span style="color:white;">发送 Email: </span></h4>
+                        <a href="mailto:service@leojiao.net" style="color:white;padding-left:30px;">service@leojiao.net</a>
                     </div>
                 </div>
             </div>
