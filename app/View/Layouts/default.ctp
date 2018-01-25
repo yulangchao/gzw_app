@@ -192,7 +192,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 																	<li><a href="/blogs">Blog</a></li>
 																	<li><a href="/histories">Leo Map</a></li>
 																	<li><a href="/fangs">Listings</a></li>
-																	<li><a href="/">Networks</a></li>
+																	<li><a href="/networks">Networks</a></li>
 																</ul>
 														</div>
 												</div>
@@ -215,7 +215,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 														<li><a href="/blogs">Blog</a></li>
 														<li><a href="/histories">Leo Map</a></li>
 														<li><a href="/fangs">Listings</a></li>
-														<li><a href="/">Networks</a></li>
+														<li><a href="/networks">Networks</a></li>
 													</ul>
 											</nav>
 									</div>
