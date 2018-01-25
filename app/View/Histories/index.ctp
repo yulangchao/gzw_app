@@ -36,7 +36,7 @@
 
 <script>
     function initMap() {
-        var victoria = {lat: 48.42212, lng: -123.367339};
+        var victoria = {lat: 48.427402, lng: -123.364045};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 12,
           center: victoria
@@ -59,7 +59,7 @@
                 '<div id="bodyContent">'+
                 '<p><?=$history['History']['body']?></p>'+
                 '<br/>'+
-                '<p>price: $<?=$history['History']['price']?></p>'+
+                '<p><?=$history['History']['text']?></p>'+
                 '</div>'+
                 '</div>';
 

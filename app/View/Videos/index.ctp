@@ -16,6 +16,7 @@
                 <video id="video" width="360" height="260" src="<?=$video['BrwFile']['main']['url']?>" controls controlsList="nodownload">
                     your browser does not support the video tag
                 </video>
+                <br/><br/>
                 <p style="text-align:  center;font-weight:  bold;"><?=$video['Video']['title']?></p>
             </div>
         </div>
