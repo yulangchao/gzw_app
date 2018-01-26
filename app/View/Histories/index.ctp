@@ -82,11 +82,10 @@
                     alert('Geocode was not successful for the following reason: ' + status);
                 }
                 });
-					
             <?php endforeach;?>
 		    <?php unset($history);?>
         }
     }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqj9Ub3HNAVt38O90gFgXZHi03rqYd4fg&callback=initMap"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi7mnwJ3VVm5R8I2KoOx7uG42R2PVYEyI&callback=initMap"
 async defer></script>
