@@ -26,7 +26,7 @@
                                         </a>
                                     </div>
                                     <div class="single-blog-text">
-                                        <h3><a class="blog-hd" href="/blogs/view/<?=$blog['Blog']["id"]?>"><?= $blog['Blog']['title']; ?></a></h3>
+                                        <h3 style="    text-overflow: ellipsis; overflow: hidden;white-space: nowrap;"><a class="blog-hd" href="/blogs/view/<?=$blog['Blog']["id"]?>"><?= $blog['Blog']['title']; ?></a></h3>
                                         <div class="single-item-comment-view">
                                             <span><i class="fa fa-clock-o"></i> <?= date('Y/m/d H:i:s', strtotime($blog['Blog']['created'])); ?></span>
                                         </div>

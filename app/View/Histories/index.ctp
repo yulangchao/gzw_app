@@ -49,10 +49,10 @@
 
         function geocodeAddress(geocoder, resultsMap) {
 
-            <?php foreach ($histories as $history): ?>
+            <?php foreach ($histories as $key=>$history): ?>
                
-                var address ="<?=$history['History']['address']?>";
-                var contentString = '<div id="content">'+
+                var address<?=$key?> ="<?=$history['History']['address']?>";
+                var contentString<?=$key?> = '<div id="content">'+
                 '<div id="siteNotice">'+
                 '</div>'+
                 '<h1 id="firstHeading" class="firstHeading"><?=$history['History']['title']?></h1>'+
@@ -64,10 +64,10 @@
                 '</div>';
 
                 var infowindow = new google.maps.InfoWindow({
-                content: contentString
+                content: contentString<?=$key?>
                 });
 
-                geocoder.geocode({'address': address}, function(results, status) {
+                geocoder.geocode({'address': address<?=$key?>}, function(results, status) {
                 if (status === 'OK') {
                     resultsMap.setCenter(results[0].geometry.location);
                     var marker = new google.maps.Marker({
@@ -82,6 +82,7 @@
                     alert('Geocode was not successful for the following reason: ' + status);
                 }
                 });
+					
             <?php endforeach;?>
 		    <?php unset($history);?>
         }

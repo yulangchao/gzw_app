@@ -7,6 +7,12 @@
     white-space: normal;
 }
 
+	
+	@media (max-width: 767px){
+		.property-details-inner a {
+				display: inline-block !important;
+		}
+	}
 </style>
 
 

@@ -1,5 +1,11 @@
 	<!--Slider Area Start-->
-
+<style>
+	@media (max-width: 767px){
+.banner-readmore {
+    display: inline-block !important;
+}
+	}
+</style>
 	<div class="slider-area">
 		<div class="preview-2">
 				
